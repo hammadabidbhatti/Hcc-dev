@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #0f225b;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: relative;
+  /* width: 100%;
+  height: 100%; */
+}
+.Logo {
+  /* text-align: center; */
+  align-items: center;
+  width: 15%;
+  position: relative;
+  left: 525px;
+  top: 70px;
+  /* height: 70%; */
+  /* margin-bottom: 5%; */
+  /* margin-top: 0; */
+}
+.card {
+  position: relative;
+  top: 120px;
+  width: 28%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.card input[type="email"],
+.card input[type="password"] {
+  width: 100%;
+  padding: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.card button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.card button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+.required {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+.SignIn {
+  font-size: 16px;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+.ForgetPassword {
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  color: #3042c6;
+  display: flex;
+  justify-content: end;
+  font-weight: 500;
+}
+.ForgetPassword :hover {
+  text-decoration: underline;
+}
+.ForgetPassword_a_tag {
+  text-decoration: none;
+}
+.RequiredInput {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 11px;
+  font-weight: 200;
+  color: gray;
+}
